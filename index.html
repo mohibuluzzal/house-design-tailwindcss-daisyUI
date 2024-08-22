@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Design</title>
+  
+    <!-- link with taiwind and daisyUI
+    ============================= -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Manrope Font cdn
+    ================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome CDN
+    ================ -->
+    <script src="https://kit.fontawesome.com/4ca2bc4408.js" crossorigin="anonymous"></script>
+    
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+<body class="font-manrope">
+
+    <header class="container mx-auto pl-3 md:pl-4 bg-gradient-to-b from-slate-200 to-white">
+        <!-- nav-bar-start
+        ============= -->
+        <div class="navbar bg-slate-200">
+            <div class="navbar-start">
+              <i class="fa-solid fa-arrow-right rounded-full w-6 h-6 text-center p-1 -rotate-45 bg-lime-400 rounded-full "></i><a class="btn btn-ghost text-3xl font-extrabold ">Rinterio</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 font-bold text-slate-500">
+                <li class="hover:text-black duration-300 ease-in-out"><a>Home</a></li>
+                <li class="hover:text-black duration-300 ease-in-out"><a>Services</a></li>
+                <li class="hover:text-black duration-300 ease-in-out"><a>Portfolio</a></li>
+                <li class="hover:text-black duration-300 ease-in-out"><a>Blogs</a></li>
+                <li class="hover:text-black duration-300 ease-in-out"><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+                <i class="fa-solid fa-magnifying-glass bg-white rounded-full w-8 h-8 p-2 hidden md:flex"></i>
+               <i class="fa-solid fa-cart-shopping m-3 bg-white rounded-full w-8 h-8 p-2 hidden md:flex"></i>
+              <a class="btn bg-lime-300 font-extrabold rounded-full border-none hidden md:flex"">Book Consultant<i class="fa-solid fa-arrow-right rounded-full w-6 h-6 text-white p-1 -rotate-45 bg-black rounded-full "></i></a>
+            </div>
+
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M3 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li> 
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div class="flex flex-col items-center justify-center text-center">
+            <div class="">
+              <img src="assets/banner.png" alt="">
+            </div>
+
+            <div class="flex flex-col items-center">
+              <h2 class="text-7xl font-extrabold pt-6">A barn house of this design has a <br>striking appearance</h2>
+              <p class="opacity-100 text-sm pt-6 pb-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+              <a class="btn bg-lime-200 font-extrabold rounded-full border-none hidden md:flex"">View Details<i class="fa-solid fa-arrow-right rounded-full w-6 h-6 text-white p-1 -rotate-45 bg-lime-400 rounded-full "></i></a>
+            </div>
+          </div>
+         
+
+    </header>
+
+    <main></main>
+
+    <Footer></Footer>
+    
+</body>
+</html>
