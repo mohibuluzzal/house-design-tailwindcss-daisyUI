@@ -28,9 +28,13 @@
 </head>
 <body class="font-manrope">
 
-    <header class="container mx-auto pl-3 md:pl-4 bg-gradient-to-b from-slate-200 to-white">
-        <!-- nav-bar-start
-        ============= -->
+          <!-- Header Section Start
+          ==================== -->
+    <header class="container mx-auto px-4  bg-gradient-to-b from-slate-200 to-white">
+        
+      <!-- nav-bar-start
+        ================ -->
+
         <div class="navbar bg-slate-200">
             <div class="navbar-start">
               <i class="fa-solid fa-arrow-right rounded-full w-6 h-6 text-center p-1 -rotate-45 bg-lime-400 rounded-full "></i><a class="btn btn-ghost text-3xl font-extrabold ">Rinterio</a>
@@ -67,7 +71,7 @@
               </div>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow absolute right-0">
                 <li><a>Home</a></li>
                 <li><a>Services</a></li>
                 <li><a>Portfolio</a></li>
@@ -79,23 +83,143 @@
 
           </div>
 
-          <div class="flex flex-col items-center justify-center text-center">
+          <!-- nav-bar-end
+        ==================== -->
+
+          <!-- Hero Banner Section Start
+          ============================== -->
+
+          <div class="flex flex-col items-center justify-center text-center pt-9">
+
+            <!-- Image section
+              ============= -->
+
             <div class="">
               <img src="assets/banner.png" alt="">
             </div>
 
+            <!-- Content Section
+            =============== -->
+
             <div class="flex flex-col items-center">
-              <h2 class="text-7xl font-extrabold pt-6">A barn house of this design has a <br>striking appearance</h2>
-              <p class="opacity-100 text-sm pt-6 pb-8">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
-              <a class="btn bg-lime-200 font-extrabold rounded-full border-none hidden md:flex"">View Details<i class="fa-solid fa-arrow-right rounded-full w-6 h-6 text-white p-1 -rotate-45 bg-lime-400 rounded-full "></i></a>
+              <h2 class="text-5xl md:text-7xl px-4 font-extrabold pt-6">A barn house of this design has a <br>striking appearance</h2>
+              <p class="opacity-100 text-sm pt-6 pb-8 px-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+              <a class="btn bg-lime-200 font-extrabold rounded-full border-none  md:flex w-2/3 md:w-auto">View Details<i class="fa-solid fa-arrow-right rounded-full w-6 h-6 text-white p-1 -rotate-45 bg-lime-400 rounded-full "></i></a>
             </div>
           </div>
-         
+
+          <!-- Hero Banner Section end
+          ============================ -->
 
     </header>
 
-    <main></main>
+          <!-- Main Section Start
+          ================= -->
+    <main class="container mx-auto">
 
+      <!-- About Us Section Start
+      ================ -->
+      <div class=" bg-slate-100 border border-red-500">
+      
+        <div class="card lg:card-side shadow-xl bg-transparent pt-12 pb-20">
+
+          <!-- Vector Image
+          ============ -->
+          <img src="assets/Vector.png" class=" h-7 absolute inset-5 hidden md:flex" alt="">
+
+          <!-- About Us Section Without vector Start
+          ======================================== -->
+
+          <!-- About Us container
+          ================== -->
+          <div class="flex flex-col md:flex-row text-center md:text-left relative pt-2 border border-red-600">
+
+
+            <div class="sm:w-full lg:w-1/2">
+
+              <!-- About Us Left-side
+              =================== -->
+              <div>
+    
+                <!-- About Us Button
+                =============== -->
+            
+                <div class="ml-7">
+                  <button class="btn btn-sm bg-white"><i class="fa-solid fa-arrow-right text-black py-2 justify-center  rounded-full"></i>About Us</button>
+                </div>
+            
+                <!-- container
+                ========= -->
+                  <div class="card-body flex flex-col items-center md:items-start">
+                    <h2 class="card-title text-4xl font-bold">We design thoughtful,<br> liveable spaces</h2>
+                    <p class="text-sm font-medium">The barn house captivates with its blend of rustic charm and 
+                      modern sophistication, featuring weathered wood, sleek metal accents.</p> 
+                  </div>
+            
+            
+            
+               </div>
+            
+               <!-- About Us Left side cards
+               ========================= -->
+                    <div class="mx-7 grid grid-cols-1 gap-6">
+                      <div class="card card-side bg-base-100 shadow-xl px-9">
+                        <figure>
+                          <img class="h-10"
+                            src="assets/commercial.png"
+                            alt="Movie" />
+                        </figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-lg font-extrabold">Commercial</h2>
+                          <p class="text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                      </div>
+                      <div class="card card-side bg-base-100 shadow-xl">
+                        <figure class="pl-7">
+                          <img class="h-10"
+                            src="assets/residential.png"
+                            alt="Movie" />
+                        </figure>
+                        <div class="card-body">
+                          <h2 class="card-title text-lg font-extrabold">Residential</h2>
+                          <p class="text-sm">The barn house captivates with its blend of rustic charm and modern.</p>
+                        </div>
+                      </div>
+                    </div>
+    
+    
+    
+    </div>
+    
+    <!-- About Us Section Without vector end
+              ======================================== -->
+    
+              <!-- About Us Right side
+              ==================== -->
+    
+              <figure class="pt-6 lg:pt-0">
+                <img 
+                  src="assets/Rectangle.png"
+                  alt="Album"/>
+              </figure>
+              
+
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- About Us Section end
+      ================ -->
+
+    </main>
+
+          <!-- Footer Section Start
+          ==================== -->
     <Footer></Footer>
     
 </body>
